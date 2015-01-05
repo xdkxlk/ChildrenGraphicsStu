@@ -1,0 +1,3 @@
+CTriangle 三角形 CLadder 梯形
+CMoon 月牙形 CRect 长方形
+CSquare 正方形 CStar 五角星

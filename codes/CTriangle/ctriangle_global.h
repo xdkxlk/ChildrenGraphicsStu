@@ -1,0 +1,12 @@
+#ifndef CTRIANGLE_GLOBAL_H
+#define CTRIANGLE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CTRIANGLE_LIBRARY)
+#  define CTRIANGLESHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define CTRIANGLESHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CTRIANGLE_GLOBAL_H
